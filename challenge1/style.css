@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: #EAF6F6; */
+    color: #11999E;
+}
+.main{
+    background-color: #d2f8f8;
+    /* border: 2px solid red; */
+    text-align: center;
+    line-height: 2;
+    color: #66BFBF;
+    position: relative;
+}
+.main h1{
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;;
+}
+.main img{
+    width: 40%;
+    height: 40%;
+    margin: 40px auto 0px;
+}
+.navbar{
+    background-color: #d2f8f8;
+    height: 40%;
+}
+.navbar ul{
+    line-height: 3;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.navbar ul li{
+    color: black;
+    list-style: none;
+    margin: 6px;
+    padding: 5px;   
+}
+.photo{
+    margin: auto;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.photo img{
+    width: 20%;
+    position: relative;
+   margin: 20px auto;
+    left: 302px;
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    margin:4px;
+    padding: 5px;
+    font-size: 40px;
+}
+.text p{
+    color: black;
+    width: 50%;
+    margin: auto;
+    line-height: 1.4;
+}
+hr{
+    width: 4%;
+    margin: 25px auto;
+    border-style: dotted;
+    border-width: 6px;
+    border-top: 0px;
+    color: gray;
+    opacity: 0.3;
+}
+.third h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px auto;
+    padding: 4px;
+}
+.skill{
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 50px auto;
+}
+.skill img{
+    width: 20%;  
+    margin: auto;
+}
+.container h2{
+    text-align: left;
+}
+.container2, .container p{
+    color: black;
+}
+.skill2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 50px auto;
+}
+.skill2 img{
+    width: 22%;  
+    margin: auto;
+}
+.last{
+    text-align: center;
+}
+.last h2{
+    font-size: 40px;
+    margin: 50px auto 20px;
+    padding: 4px;
+
+}
+.last h3{
+    font-size: 20px;
+    margin: 20px auto;
+}
+.last p{
+    color: black;
+    width: 50%;
+    font-size: 15px;
+    margin: 20px auto;
+    padding: 4px;
+}
+button{
+    background-color: greenyellow;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 18px auto;
+    padding: 5px;
+    border-radius: 7px;
+}
+.footer{
+    color: black;
+    margin: 40px 0px 0px;
+    background-color: #66BFBF;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer ul li{
+    list-style: none;
+    margin: 30px 15px 10px;
+    padding: 5px;
+}
+.footer p{
+    text-align: center;
+    margin: 20px auto 0px;
+    padding: 5px;
+}
